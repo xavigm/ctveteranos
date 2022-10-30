@@ -3,6 +3,7 @@ from urllib.error import URLError
 from flask import Flask, render_template, request, redirect
 import requests
 import csv
+from waitress import serve
 
 global URL
 URL = "https://raw.githubusercontent.com/xavigm/ctveteranos/main/veteranos.csv"
@@ -152,6 +153,6 @@ def noticias():
         return render_template('noticias.html', **templateData)             
 
 
-app.run() ##Replaced with below code to run it using waitress
+#app.run() ##Replaced with below code to run it using waitress
 #serve(app, host='127.0.0.1', port=80)  
     
