@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<!--
+	Verti by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>UD Can Trias Veteranos</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+	</head>
+	<body class="is-preload homepage">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<div id="header-wrapper">
+					<header id="header" class="container">
+
+						<!-- Logo -->
+							<div id="logo">
+								<img src="../images/logo.png">
+								<span></span>
+							</div>
+
+						<!-- Nav -->
+							<nav id="nav">
+								<ul>
+									<li class="current"><a href="/">Inicio</a></li>
+									<li><a href="calendario">Calendario</a></li>
+									<li><a href="plantilla">Plantilla</a></li>
+									<li><a href="https://futbolveterans.cat/1a-divisio-b/">Clasificación</a></li>
+									<li><a href="campo">Campo</a></li>
+									<li><a href="noticias">Noticias</a></li>
+								</ul>
+							</nav>
+
+					</header>
+				</div>
+
+			<!-- Banner -->
+				<div id="banner-wrapper">
+					<div id="banner" class="box container">
+						<div class="row">
+							<div class="col-7 col-12-medium">
+								<h2>Siguiente partido</h2>
+								<p><img src=../images/{{ escudo }}></img></p>
+								<p>Rival:<b> {{ nombre }}</b><br>
+								Fecha y hora: <b>{{ fecha }} </b><br>
+								Hora: <b>{{ hora }}</b></p>
+							</div>
+							<div class="col-5 col-12-medium">
+								<ul>
+									<li><a href="calendario" class="button large icon solid fa-arrow-circle-right">Calendario</a></li>
+									<li><a href="{{ mapa | safe }}" class="button alt large icon solid fa-map-marked">Como llegar</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			
+
+			<!-- Footer -->
+				{{ footer | safe }}
+		<!-- Scripts -->
+
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.dropotron.min.js"></script>
+			<script src="../assets/js/browser.min.js"></script>
+			<script src="../assets/js/breakpoints.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<script src="../assets/js/main.js"></script>
+
+	</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<!--
+	Verti by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>UD Can Trias Veteranos</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="../assets/css/main.css" />
+</head>
+
+<body class="is-preload homepage">
+	<div id="page-wrapper">
+
+		<!-- Header -->
+		<div id="header-wrapper">
+			<header id="header" class="container">
+
+				<!-- Logo -->
+				<div id="logo">
+					<img src="../images/logo.png">
+					<span></span>
+				</div>
+
+				<!-- Nav -->
+				<nav id="nav">
+					<ul>
+						<li><a href="/">Inicio</a></li>
+						<li class="current"><a href="calendario">Calendario</a></li>
+						<li><a href="plantilla">Plantilla</a></li>
+						<li><a href="https://futbolveterans.cat/1a-divisio-b/">Clasificación</a></li>
+						<li><a href="campo">Campo</a></li>
+						<li><a href="noticias">Noticias</a></li>
+					</ul>
+				</nav>
+
+			</header>
+		</div>
+
+
+
+		<div id="features-wrapper">
+			<div class="container">
+				<div class="row">
+					{{ calendar | safe}}
+				</div>
+			</div>
+		</div>
+
+
+
+			<!-- Footer -->
+			{{ footer | safe }}
+			
+
+	<!-- Scripts -->
+
+	<script src="../assets/js/jquery.min.js"></script>
+	<script src="../assets/js/jquery.dropotron.min.js"></script>
+	<script src="../assets/js/browser.min.js"></script>
+	<script src="../assets/js/breakpoints.min.js"></script>
+	<script src="../assets/js/util.js"></script>
+	<script src="../assets/js/main.js"></script>
+
+</body>
+
+</html>
