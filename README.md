@@ -1,6 +1,6 @@
 Proyecto para desplegar app para equipo de veteranos de UD Cantrias.
 
-https://raw.githubusercontent.com/xavigm/ctveteranos/main/screenshot-vetudct.png
+<img src="https://raw.githubusercontent.com/xavigm/ctveteranos/main/screenshot-vetudct.png">
 
 You can see more information about deploying a web project quickly with Flask and Heroku on my blog:
 
